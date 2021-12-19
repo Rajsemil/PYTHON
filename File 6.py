@@ -1,0 +1,8 @@
+f = open('semil.txt', mode='r',    encoding='utf-8')
+f.close()
+print('File Name: ', f.name)
+print('File Mode: ', f.mode)
+print('File Close: ', f.close)
+print('File Encoding: ', f.encoding)
+print('File Readable: ', f.readable)
+print('File Writable: ', f.writable)

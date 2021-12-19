@@ -1,0 +1,6 @@
+f = open('semil.txt', mode='r')
+data1 = f.readline()
+data2 = f.readline()
+print(data1, end="")
+print(data2)
+f.close()

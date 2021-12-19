@@ -1,4 +1,7 @@
-# Get current working directory
-import os
-os.getcwd()
-print(os.getcwd())
+lst = []
+for i in range(3):
+    name = input("Enter Your Name: ")
+    lst.append(name)
+
+for i in lst:
+    print(i)

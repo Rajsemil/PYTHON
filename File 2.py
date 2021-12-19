@@ -1,0 +1,6 @@
+f = open('semil.txt', mode='w')
+f.write('Hello \n')
+f.write('Semil \n')
+f.write('How are you')
+f.close()
+print('Writing Success')
