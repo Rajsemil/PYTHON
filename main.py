@@ -1,7 +1,3 @@
-lst = []
-for i in range(3):
-    name = input("Enter Your Name: ")
-    lst.append(name)
-
-for i in lst:
+list = ["sanju" ,"arif" ,"shyam"]
+for i in list:
     print(i)
