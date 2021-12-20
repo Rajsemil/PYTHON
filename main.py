@@ -1,18 +1,9 @@
-"""
-Accessor Method
-get method
-      def get_variable(self):
-      def get_result(self):
-      def get_name(self):
-      def get_id(self):
-"""
-class Laptop:
+class Parent:
+    def anything(self):
+        print("Function defined in parent class")
 
-    def __init__(self):
-        self.model = "Lattitude E6420"
+class Child(Parent):
+    pass
 
-    def get_model(self):
-        return self.model
-dell = Laptop()
-d = dell.get_model()
-print(d)
+obj = Child()
+obj.anything()
