@@ -1,2 +1,8 @@
-m = lambda x:print(x**2)
-m(int(input("Enter a number: ")))
+class Adpresso:
+    def hello(self, name=None):
+        if name is not None:
+            print("Hello: ",name)
+        else:
+            print("Hello")
+obj = Adpresso()
+obj.hello()
