@@ -1,0 +1,5 @@
+x = int(input('Enter a number first:'))
+y = int(input("Enter a number second:"))
+print('~x = ',~x)
+print('~Y = ',~y)
+print('x&y = ',x&y)
