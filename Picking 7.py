@@ -6,7 +6,7 @@ def pickle_data():
                 'country': 'India'
         }
     filename = 'PersonalInfo'
-    outfile = open('file.txt', 'wb')
+    outfile = open(filename, 'wb')
     pickle.dump(data,outfile)
     outfile.close()
 pickle_data()
