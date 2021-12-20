@@ -1,12 +1,5 @@
 import pickle
-def pickle_data():
-    data = {
-                'name': 'Prashant',
-                'profession': 'Software Engineer',
-                'country': 'India'
-        }
-    filename = 'PersonalInfo'
-    outfile = open('file.txt', 'wb')
-    pickle.dump(data,outfile)
-    outfile.close()
-pickle_data()
+emp = {1:"A",2:"B",3:"C",4:"D",5:"E"}
+pickling_on = open("Emp.pickle","wb")
+pickle.dump(emp, pickling_on)
+pickling_on.close()
